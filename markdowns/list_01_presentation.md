@@ -86,9 +86,7 @@ permettant de manipuler ce type d'objet est déjà prédéfini.
 
 La syntaxe d'appel à une méthode est légèrement différente de la syntaxe d'appel à une fonction. Elle a la forme: `objet.methode(arguments)`
 
-Par exemple, Python prédéfini un ensemble de méthodes permettant de manipuler spécifiquement les chaînes de caractères. 
-
-Une liste exhaustive des méthodes permettant de manipuler des chaînes de caractères en Python peut être retrouvée [ici](#https://www.w3schools.com/python/python_ref_string.asp).
+Par exemple, Python prédéfinit un ensemble de méthodes permettant de manipuler spécifiquement les chaînes de caractères. Une liste exhaustive de ces méthodes peut être retrouvée [ici](#https://www.w3schools.com/python/python_ref_string.asp).
 
 On en présente quelque unes:
  * La méthode `upper()` (resp. `lower()`) renvoie la chaîne mise en majuscules (resp. minuscules):
@@ -158,7 +156,7 @@ print(alphabet(18))
 
 ## Méthode 2: en construisant, caractère par caractère la chaîne transformée.
 
-Pour les manipulations plus complexes il est souvent plus facile de travailler caractères par caractères.
+Pour les manipulations plus complexes il est souvent plus facile de travailler caractère par caractère.
 
 Sur le même exemple:
 ```python runnable
@@ -181,8 +179,8 @@ print(alphabet(3))
 print(alphabet(18))
 ```
 
-En utilisant cette structure (qui est très générale):
- 1. On n'a plus besoin de manipuler la liste dans sa globalité,
+En utilisant cette méthode (qui est très générale):
+ 1. On n'a plus besoin de manipuler la chaîne de caractère dans sa globalité,
  1. On a juste à transformer chaque caractère indépendamment les uns des autres.
 
 # Exercice d'application
