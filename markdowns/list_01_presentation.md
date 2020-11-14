@@ -73,7 +73,7 @@ Cochez la/les bonne(s) réponse(s):
 [X] "e"
 [ ] b
 
-?[Que vaut b[1:4]] ?
+?[Que vaut b[1:4] ?]
 [X] "orl"
 [ ] "orld"
 [ ] "wor"
@@ -189,8 +189,7 @@ En utilisant cette structure (qui est très générale):
 
 On demande à Bob d'écrire la fonction `swapcase()` prenant en argument une chaîne de caractère et inversant la casse de chaque caractère de cette chaîne.
 
-Cela signifie que cette fonction devra renvoyer la chaîne de caractères avec toutes les mi-
-nuscules mises en majuscules et toutes les majuscules mises en minuscules (la ponctuation
+Cela signifie que cette fonction devra renvoyer la chaîne de caractères avec toutes les minuscules mises en majuscules et toutes les majuscules mises en minuscules (la ponctuation
 restant inchangée).
 
 ## Méthode 1: en manipulant la chaîne de caractère.
@@ -243,7 +242,7 @@ def swapcase(texte):
     return t
 ```
 
-?[En tout, combien de fois faut-il appeler la méthode replace() pour que swapcase() fonctionne ? ]
+?[En tout, combien de fois faut-il appeler la méthode replace() pour que swapcase() fonctionne ?]
 [ ] 2
 [ ] 26
 [X] 52
@@ -271,17 +270,4 @@ Sinon, elle vous renverra un message d'erreur avec éventuellement une descripti
 ---
 
 @[Remettre dans le bon ordre.]({"stubs": ["swapcase.py"], "command": "python3 test_swapcase.py"})
-
-```python
-            resultat = resultat + texte[i].lower()
-        else:
-        if texte[i].isupper():
-    return resultat
-    resultat = ""
-        elif texte[i].islower():
-    for i in range(len(texte)):
-            resultat = resultat + texte[i]
-def swapcase(texte):
-            resultat = resultat + texte[i].upper()
-```
 
