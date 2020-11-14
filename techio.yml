@@ -1,4 +1,24 @@
-title: Simple Python Template
+title: Les listes et tuples en Python
 plan:
-- title: Python Snippet
-  statement: statement.md
+- title: Bonjour à tous
+  statement: markdowns/welcome.md
+- title: Présentation
+  statement: markdowns/list_01_presentation.md
+- title: Tuple Matching
+  statement: markdowns/list_02_tuple_matching.md
+- title: Mutable et Immutable
+  statement: markdowns/list_03_mutable.md
+- title: Méthodes et documentation
+  statement: markdowns/list_04_methods.md
+- title: Construction par compréhension
+  statement: markdowns/list_05_comprehension.md
+- title: Les listes et les chaînes de caractères
+  statement: markdowns/list_06_strings.md
+- title: Exercices
+  statement: markdowns/list_07_exercises.md  
+projects:
+  python:
+    root: /python-project
+    runner:
+      name: python
+      version: '3'
