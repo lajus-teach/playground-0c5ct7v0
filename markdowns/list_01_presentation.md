@@ -58,26 +58,26 @@ b = 'world'
 Cochez la/les bonne(s) réponse(s):
 
 ?[Que vaut a + b ?]
-[ ] "hello"'world'
-[ ] hello world
-[ ] "hello world"
-[ ] 'hello world'
-[ ] helloworld
-[X] "helloworld"
-[X] 'helloworld'
+-[ ] "hello"'world'
+-[ ] hello world
+-[ ] "hello world"
+-[ ] 'hello world'
+-[ ] helloworld
+-[X] "helloworld"
+-[X] 'helloworld'
 
 ?[Que vaut a[1] ?]
-[ ] h
-[ ] "h"
-[ ] e
-[X] "e"
-[ ] b
+-[ ] h
+-[ ] "h"
+-[ ] e
+-[X] "e"
+-[ ] b
 
 ?[Que vaut b[1:4] ?]
-[X] "orl"
-[ ] "orld"
-[ ] "wor"
-[ ] "worl"
+-[X] "orl"
+-[ ] "orld"
+-[ ] "wor"
+-[ ] "worl"
 
 ## Quelques méthodes
 
@@ -243,10 +243,10 @@ def swapcase(texte):
 ```
 
 ?[En tout, combien de fois faut-il appeler la méthode replace() pour que swapcase() fonctionne ?]
-[ ] 2
-[ ] 26
-[X] 52
-[ ] Autant de fois qu'il y a de caractères dans la variable texte.
+-[ ] 2
+-[ ] 26
+-[X] 52
+-[ ] Autant de fois qu'il y a de caractères dans la variable texte.
 
 
 ## Méthode 2: en construisant, caractère par caractère la chaîne transformée.
