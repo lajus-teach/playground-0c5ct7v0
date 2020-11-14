@@ -167,6 +167,7 @@ def alphabet(n):
     for i in range(n):
         # On calcule le prochain caractère à ajouter:
         caractere_a_ajouter = a[i]
+        #
         # Ici c'est assez simple, c'est seulement la ieme lettre de l'alphabet.
         # Mais le calcul peut être plus compliqué pour des manipulations plus
         # complexes.
