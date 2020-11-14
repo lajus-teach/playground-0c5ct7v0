@@ -194,7 +194,7 @@ restant inchangée).
 
 Bob vous propose différentes solutions que vous allez étudier:
 
-**Proposition 1**: en utilisant les méthodes `upper()` et `lower()`:
+*Proposition 1*: en utilisant les méthodes `upper()` et `lower()`:
 
 ```python runnable
 # Proposition 1
@@ -207,11 +207,11 @@ def swapcase(texte):
     return texte
 ```
 
-Tester cette fonction. *Quel est le problème ? Expliquez*
+Tester cette fonction. **Quel est le problème ? Expliquez**
 
 ---
 
-**Proposition 2**:
+*Proposition 2*.
 
 ```python runnable
 # Proposition 2
@@ -224,14 +224,14 @@ def swapcase(texte):
     return t2
 ```
 
-Tester cette fonction. *Quel est le problème ? Expliquez*
+Tester cette fonction. **Quel est le problème ? Expliquez**
 
 ---
 
-**Proposition 3**: en utilisant la méthode `replace()`:
+*Proposition 3*: en utilisant la méthode `replace()`:
 
 ```python runnable
-# Proposition 2
+# Proposition 3
 def swapcase(texte):
     t = texte
     t = t.replace("a", "A")
